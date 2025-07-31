@@ -1,0 +1,51 @@
+# .gitignore for Cat/Dog Classification Project
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dataset files (exclude large binary files)
+/data/
+/pet_images/
+!data/README.md  # Keep README if exists
+
+# Model weights (exclude large files)
+/models/
+*.h5
+*.pth
+*.pt
+
+# Training logs and outputs
+/logs/
+/outputs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+*.env
+
+# Debug files
+*.log
