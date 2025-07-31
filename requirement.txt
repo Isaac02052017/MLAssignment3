@@ -1,0 +1,27 @@
+# Core ML Framework
+tensorflow==2.12.0
+keras==2.12.0
+
+# Data Processing
+numpy==1.23.5
+pandas==1.5.3
+Pillow==9.4.0
+opencv-python==4.7.0.72
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.1
+
+# Jupyter Environment
+jupyter==1.0.0
+ipykernel==6.22.0
+ipywidgets==8.0.6
+
+# Model Evaluation
+scikit-learn==1.2.2
+scipy==1.10.1
+
+# Utilities
+tqdm==4.65.0
+python-dotenv==1.0.0
