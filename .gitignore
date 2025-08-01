@@ -20,15 +20,8 @@ venv/
 .ipynb_checkpoints/
 
 # Dataset files (exclude large binary files)
-/data/
 /pet_images/
 !data/README.md  # Keep README if exists
-
-# Model weights (exclude large files)
-/models/
-*.h5
-*.pth
-*.pt
 
 # Training logs and outputs
 /logs/
